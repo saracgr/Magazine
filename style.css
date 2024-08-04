@@ -1,0 +1,156 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+
+
+
+.nav nav ul{
+    padding-top: 1.5%;
+    text-align: right;
+    word-spacing: 10px;
+    
+}
+  li{
+    display: inline;
+    
+}
+
+ul > :first-child{
+    text-align: left;
+
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+.header{
+    padding-top: 2%;
+    text-align: center;
+    width: 100%;
+
+}
+
+h1{
+    font-size: 5em;
+}
+
+.new{
+    background-color: black;
+    font-size: 1.5em;
+    color: aliceblue;
+    text-align: left;
+    margin-top: 1.5%;
+    padding-left: 5%;
+    width: 100%;
+}
+
+
+.section-break {
+    width: 100%;
+    height: 30%;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+
+.pages{ 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    gap: 2%;   
+    
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    color: rgb(247, 247, 247);
+    background-color: rgb(41, 41, 41);
+    padding:7.5%;
+    font-size: 1.2em;
+    row-gap: 1.5% ;    
+}
+
+.text-container{
+ width: 30% ;
+}
+
+#p2::after {
+    content: '|';
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+  }
+
+  #p3::after {
+    content: '|';
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+  }
+
+  #p4::after {
+    content: '|';
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+  }
+
+
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.img{
+display: flex;
+height: auto;
+justify-content: right;
+align-items: center;
+max-width: 70%;
+      
+}
+
+.gallery{
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;  
+
+}
+
+#vs{
+    text-align: center;
+    font-size: 2.5em;
+    font-variant: small-caps;
+    padding: 2%;
+}
+
+.img0{
+    background-color: rgb(197, 46, 46);
+    border-radius: 1%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#img0{
+    max-width: 50%;
+   
+
+
+    background-color: rgb(255, 255, 255);
+}
