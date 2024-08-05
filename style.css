@@ -114,7 +114,8 @@ h1{
     }
   }
 
-.img{
+
+  .img{
 display: flex;
 height: auto;
 justify-content: right;
@@ -123,14 +124,15 @@ max-width: 70%;
       
 }
 
+
 .gallery{
     padding-top: 7%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex:1;  
-
 }
+
 
 #vs{
     text-align: center;
@@ -149,8 +151,5 @@ max-width: 70%;
 
 #img0{
     max-width: 50%;
-   
-
-
     background-color: rgb(255, 255, 255);
 }
